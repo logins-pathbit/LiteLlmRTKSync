@@ -232,3 +232,10 @@ logs/
 # Clone do upstream para leitura.
 tmp/
 .DS_Store
+
+# Local AgentDevKit test evidence
+/.agent-tests/
+
+# Shared AgentDevKit source
+!/.pbai4devs/scripts/lib/
+!/.pbai4devs/templates/release/
